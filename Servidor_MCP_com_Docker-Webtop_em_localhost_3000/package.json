@@ -1,0 +1,20 @@
+{
+  "name": "computer-use-server",
+  "version": "1.0.0",
+  "description": "Servidor MCP personalizado chamado computer use",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "computer-use"
+  ],
+  "author": "Manus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.8.2",
+    "robotjs": "^0.6.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "mcp-webtop-server",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Servidor MCP para controlar docker-webtop com Puppeteer e Robot.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.8.2",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/express": "^4.17.0",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "nodemon": "^3.0.0",
+    "rimraf": "^5.0.0"
+  }
+}

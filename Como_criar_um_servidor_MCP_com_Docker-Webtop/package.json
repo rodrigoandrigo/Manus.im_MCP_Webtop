@@ -1,0 +1,33 @@
+{
+  "name": "mcp-webtop-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Docker-Webtop using Puppeteer and RobotJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "webtop",
+    "puppeteer",
+    "robotjs"
+  ],
+  "author": "Manus",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.3",
+    "puppeteer": "^22.0.0",
+    "robotjs": "^0.6.0",
+    "jimp": "^0.22.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0",
+    "@types/puppeteer": "^7.0.0",
+    "@types/jimp": "^0.2.28",
+    "nodemon": "^3.0.0"
+  }
+}
